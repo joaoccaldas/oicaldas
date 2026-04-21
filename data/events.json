@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T20:35:00+02:00",
+  "range": {
+    "from": "2026-04-21",
+    "to": "2026-04-27"
+  },
+  "headline": "Nossa semana em família",
+  "subheadline": "Pequeno painel fofo com os próximos momentos importantes.",
+  "events": [
+    {
+      "title": "Linn pilates",
+      "start": "2026-04-21T20:00:00+02:00",
+      "end": "2026-04-21T21:00:00+02:00",
+      "allDay": false,
+      "person": "Linn",
+      "kind": "wellbeing",
+      "dayLabel": "Hoje"
+    },
+    {
+      "title": "Dejt!",
+      "start": "2026-04-22T17:00:00+02:00",
+      "end": "2026-04-22T20:30:00+02:00",
+      "allDay": false,
+      "person": "João & Linn",
+      "kind": "family",
+      "dayLabel": "Amanhã"
+    },
+    {
+      "title": "Noah idrott",
+      "start": "2026-04-23T06:00:00+02:00",
+      "end": "2026-04-23T07:00:00+02:00",
+      "allDay": false,
+      "person": "Noah",
+      "kind": "school",
+      "dayLabel": "Quarta"
+    },
+    {
+      "title": "Lukas handboll",
+      "start": "2026-04-23T16:45:00+02:00",
+      "end": "2026-04-23T18:30:00+02:00",
+      "allDay": false,
+      "person": "Lukas",
+      "kind": "sport",
+      "dayLabel": "Quarta"
+    },
+    {
+      "title": "Minileken Lukas",
+      "start": "2026-04-25T15:30:00+02:00",
+      "end": "2026-04-25T20:00:00+02:00",
+      "allDay": false,
+      "person": "Lukas",
+      "kind": "sport",
+      "dayLabel": "Sábado"
+    }
+  ]
+}

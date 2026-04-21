@@ -4,29 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oi Caldas</title>
-    <style>
-      :root { color-scheme: dark; }
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        background: radial-gradient(circle at top, #1e3a8a, #020617 65%);
-        font-family: Inter, Arial, sans-serif;
-        padding: 24px;
-      }
-      h1 {
-        color: white;
-        font-size: clamp(2rem, 7vw, 4.5rem);
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-shadow: 0 0 30px rgba(96, 165, 250, 0.35);
-        max-width: 900px;
-        line-height: 1.15;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>please fix your room, lukinhas</h1>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <main class="shell">
+      <section class="hero card">
+        <p class="eyebrow">oicaldas</p>
+        <h1 id="headline">Nossa semana em família</h1>
+        <p id="subheadline" class="subheadline">Pequeno painel fofo com os próximos momentos importantes.</p>
+      </section>
+
+      <section class="grid">
+        <article class="card message-card">
+          <p class="section-label">Mensagem</p>
+          <h2>please fix your room, lukinhas 😄</h2>
+          <p>Agora o site já pode virar um painel da família, com carinho, recados e os próximos planos.</p>
+        </article>
+
+        <article class="card spotlight-card">
+          <p class="section-label">Próximo destaque</p>
+          <div id="spotlight"></div>
+        </article>
+      </section>
+
+      <section class="card timeline-card">
+        <div class="timeline-header">
+          <div>
+            <p class="section-label">Agenda</p>
+            <h2>Próximos eventos</h2>
+          </div>
+          <span id="generatedAt" class="generated-at"></span>
+        </div>
+        <div id="events" class="timeline"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
   </body>
 </html>
