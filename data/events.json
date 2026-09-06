@@ -1,56 +1,47 @@
 {
-  "generatedAt": "2026-04-21T20:35:00+02:00",
+  "generatedAt": "2026-01-01T12:00:00Z",
   "range": {
-    "from": "2026-04-21",
-    "to": "2026-04-27"
+    "from": "2026-01-01",
+    "to": "2026-01-07"
   },
-  "headline": "Nossa semana em família",
-  "subheadline": "Pequeno painel fofo com os próximos momentos importantes.",
+  "headline": "Example family week",
+  "subheadline": "Synthetic demo data only. Do not commit real household schedules or locations.",
   "events": [
     {
-      "title": "Linn pilates",
-      "start": "2026-04-21T20:00:00+02:00",
-      "end": "2026-04-21T21:00:00+02:00",
+      "title": "Adult exercise",
+      "start": "2026-01-02T18:00:00Z",
+      "end": "2026-01-02T19:00:00Z",
       "allDay": false,
-      "person": "Linn",
+      "person": "Adult A",
       "kind": "wellbeing",
-      "dayLabel": "Hoje"
+      "dayLabel": "Friday"
     },
     {
-      "title": "Dejt!",
-      "start": "2026-04-22T17:00:00+02:00",
-      "end": "2026-04-22T20:30:00+02:00",
+      "title": "Family activity",
+      "start": "2026-01-03T14:00:00Z",
+      "end": "2026-01-03T16:00:00Z",
       "allDay": false,
-      "person": "João & Linn",
+      "person": "Family",
       "kind": "family",
-      "dayLabel": "Amanhã"
+      "dayLabel": "Saturday"
     },
     {
-      "title": "Noah idrott",
-      "start": "2026-04-23T06:00:00+02:00",
-      "end": "2026-04-23T07:00:00+02:00",
+      "title": "School activity",
+      "start": "2026-01-05T08:00:00Z",
+      "end": "2026-01-05T09:00:00Z",
       "allDay": false,
-      "person": "Noah",
+      "person": "Child A",
       "kind": "school",
-      "dayLabel": "Quarta"
+      "dayLabel": "Monday"
     },
     {
-      "title": "Lukas handboll",
-      "start": "2026-04-23T16:45:00+02:00",
-      "end": "2026-04-23T18:30:00+02:00",
+      "title": "Sports practice",
+      "start": "2026-01-06T17:00:00Z",
+      "end": "2026-01-06T18:30:00Z",
       "allDay": false,
-      "person": "Lukas",
+      "person": "Child B",
       "kind": "sport",
-      "dayLabel": "Quarta"
-    },
-    {
-      "title": "Minileken Lukas",
-      "start": "2026-04-25T15:30:00+02:00",
-      "end": "2026-04-25T20:00:00+02:00",
-      "allDay": false,
-      "person": "Lukas",
-      "kind": "sport",
-      "dayLabel": "Sábado"
+      "dayLabel": "Tuesday"
     }
   ]
 }
